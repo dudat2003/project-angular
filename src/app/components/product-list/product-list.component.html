@@ -1,0 +1,45 @@
+<div class="table-responsive small" *ngIf="products">
+    <div class="col-5 d-flex justify-content-start align-items-center py-3 mb-3 border-bottom">
+
+        <a class="link-secondary" (click)="showSearchInput = !showSearchInput">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" stroke="currentColor"
+                stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img"
+                viewBox="0 0 24 24">
+                <title>Search</title>
+                <circle cx="10.5" cy="10.5" r="7.5"></circle>
+                <path d="M21 21l-5.2-5.2"></path>
+            </svg>
+        </a>
+        <input class=" form-control" [(ngModel)]="searchText" #searchInput type="text" [hidden]="!showSearchInput"
+            placeholder="Search..." />
+    </div>
+    <table class="table table-striped table-sm ">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Image</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Description</th>
+                <th scope="col">Action</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of products | searchBox : searchText ; index as i">
+                <td>{{i+1}}</td>
+                <td>{{product.name}}</td>
+                <td><img [src]="product.imgUrl" alt=""></td>
+                <td>{{product.price}}</td>
+                <td>{{product.quantity}}</td>
+                <td [width]="300">{{product.description}}</td>
+                <td><button class="btn btn-success me-2" routerLink="/admin/product/{{product.id}}/edit">Edit</button>
+                    <button class="btn btn-danger" (click)="removeProduct(product.id!)">Remove</button>
+                </td>
+
+            </tr>
+
+        </tbody>
+    </table>
+</div>

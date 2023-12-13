@@ -1,0 +1,24 @@
+<h1>{{ mode === "create" ? "Add": "Edit"}} Product</h1>
+<form (ngSubmit)="onSubmit()" [formGroup]=" productForm">
+  <div class="mb-3">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" class="form-control" id="name" formControlName="name">
+  </div>
+  <div class="mb-3">
+    <label for="price" class="form-label">Price</label>
+    <input type="number" class="form-control" id="price" formControlName="price">
+  </div>
+  <div class="mb-3">
+    <label class="form-check-label" for="imgUrl">Image Url</label>
+    <input type="text" class="form-control" id="imgUrl" formControlName="imgUrl">
+  </div>
+  <div class="mb-3">
+    <label class="form-check-label" for="quantity">Quantity</label>
+    <input type="text" class="form-control" id="quantity" formControlName="quantity">
+  </div>
+  <div class="mb-3">
+    <label class="form-check-label" for="desc">Description</label>
+    <textarea type="text" class="form-control" id="desc" formControlName="description"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">{{ mode === "create" ? "Add": "Edit"}} </button>
+</form>

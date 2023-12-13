@@ -1,0 +1,117 @@
+{
+  "products": [
+    {
+      "name": "Product 1 ",
+      "imgUrl": "https://picsum.photos/50",
+      "price": 300,
+      "quantity": 1,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a accusantium quas delectus. Cupiditate voluptates quibusdam, quasi accusamus rerum odio totam in maxime dolores quisquam tempore id beatae maiores atque.\n",
+      "id": 1
+    },
+    {
+      "name": "Product 2",
+      "imgUrl": "https://picsum.photos/50",
+      "price": 200,
+      "quantity": 2,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a accusantium quas delectus. Cupiditate voluptates quibusdam, quasi accusamus rerum odio totam in maxime dolores quisquam tempore id beatae maiores atque.\n",
+      "id": 2
+    },
+    {
+      "name": "Product 3",
+      "imgUrl": "https://picsum.photos/50",
+      "price": 200,
+      "quantity": 3,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a accusantium quas delectus. Cupiditate voluptates quibusdam, quasi accusamus rerum odio totam in maxime dolores quisquam tempore id beatae maiores atque.\n",
+      "id": 3
+    },
+    {
+      "name": "Product 4",
+      "imgUrl": "https://picsum.photos/50",
+      "price": 200,
+      "quantity": 4,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a accusantium quas delectus. Cupiditate voluptates quibusdam, quasi accusamus rerum odio totam in maxime dolores quisquam tempore id beatae maiores atque.\n",
+      "id": 4
+    },
+    {
+      "name": "Product 5",
+      "imgUrl": "https://picsum.photos/50",
+      "price": 200,
+      "quantity": 5,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a accusantium quas delectus. Cupiditate voluptates quibusdam, quasi accusamus rerum odio totam in maxime dolores quisquam tempore id beatae maiores atque.\n",
+      "id": 5
+    },
+    {
+      "name": "Product 6",
+      "imgUrl": "https://picsum.photos/50",
+      "price": 200,
+      "quantity": 6,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a accusantium quas delectus. Cupiditate voluptates quibusdam, quasi accusamus rerum odio totam in maxime dolores quisquam tempore id beatae maiores atque.\n",
+      "id": 6
+    },
+    {
+      "name": "Product 7",
+      "imgUrl": "https://picsum.photos/50",
+      "price": 200,
+      "quantity": 7,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a accusantium quas delectus. Cupiditate voluptates quibusdam, quasi accusamus rerum odio totam in maxime dolores quisquam tempore id beatae maiores atque.\n",
+      "id": 7
+    },
+    {
+      "name": "Product 8",
+      "imgUrl": "https://picsum.photos/50",
+      "price": 200,
+      "quantity": 8,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a accusantium quas delectus. Cupiditate voluptates quibusdam, quasi accusamus rerum odio totam in maxime dolores quisquam tempore id beatae maiores atque.\n",
+      "id": 8
+    },
+    {
+      "name": "Product 9",
+      "imgUrl": "https://picsum.photos/50",
+      "price": 200,
+      "quantity": 9,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a accusantium quas delectus. Cupiditate voluptates quibusdam, quasi accusamus rerum odio totam in maxime dolores quisquam tempore id beatae maiores atque.\n",
+      "id": 9
+    },
+    {
+      "name": "Product 10",
+      "imgUrl": "https://picsum.photos/50",
+      "price": 200,
+      "quantity": 10,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a accusantium quas delectus. Cupiditate voluptates quibusdam, quasi accusamus rerum odio totam in maxime dolores quisquam tempore id beatae maiores atque.\n",
+      "id": 10
+    },
+    {
+      "name": "Product 11",
+      "imgUrl": "https://picsum.photos/50",
+      "price": 200,
+      "quantity": 11,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a accusantium quas delectus. Cupiditate voluptates quibusdam, quasi accusamus rerum odio totam in maxime dolores quisquam tempore id beatae maiores atque.\n",
+      "id": 11
+    },
+    {
+      "name": "product 12",
+      "imgUrl": "https://picsum.photos/50",
+      "price": 300,
+      "quantity": "12",
+      "description": "lorem",
+      "id": 12
+    },
+    {
+      "name": "product 13",
+      "imgUrl": "https://picsum.photos/50",
+      "price": 300,
+      "quantity": "12",
+      "description": "lorem",
+      "id": 13
+    }
+  ],
+  "users": [
+    {
+      "email": "ff@11ww",
+      "password": "$2a$10$MjSy9K/hi/mRXpFbq/kTdeM5t3Tuupe9mYBdv.XUnMj/lU61VQCdS",
+      "name": "ddd",
+      "confirmPassword": "122211",
+      "id": 1
+    }
+  ]
+}

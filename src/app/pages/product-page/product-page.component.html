@@ -1,0 +1,29 @@
+<div class="album py-5 bg-body-tertiary">
+    <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col"
+                *ngFor="let product of products | paginate: { itemsPerPage: 6, currentPage: currentPage, totalItems: products.length }">
+                <div class="card shadow-sm" routerLink="/product/{{product.id}}">
+                    <img [src]="product.imgUrl" alt="">
+                    <div class="card-body">
+                        <h3 class="card-text">{{product.name}}</h3>
+                        <p class="card-text">{{product.price}} $</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-primary">Buy</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Add to card</button>
+                            </div>
+                            <small class="text-body-secondary">{{product.quantity}} left</small>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- <app-detail-product *ngIf="isProductDetailOpen" [product]="selectedProduct"></app-detail-product> -->
+
+        </div>
+        <pagination-controls class="text-center m-3" (pageChange)="currentPage = $event"></pagination-controls>
+    </div>
+</div>
